@@ -13,7 +13,7 @@ eureka:
     serviceUrl:
       defaultZone: http://127.0.0.1:1000/eureka/
   instance:
-    prefer-ip-address: true  #使用ip注册到注册中心
+    prefer-ip-address: true 
 server:
   port: 2111
   
@@ -21,12 +21,12 @@ server:
 spring:
   profiles: dev
   application:
-    name: AIGOU_PLAT
+    name: AIGOU_PLAT_TEST
 eureka:
   client:
     serviceUrl:
       defaultZone: http://127.0.0.1:1000/eureka/
   instance:
-    prefer-ip-address: true  #使用ip注册到注册中心
+    prefer-ip-address: true  
 server:
-  port: 2111
+  port: 2222
